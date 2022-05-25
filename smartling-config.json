@@ -9,7 +9,7 @@
      "resourceSets": [
         {
             "type"      : "json",
-            "pathRegex" : ".*\\.json",
+            "pathRegex" : "locales\\/.*\\.json",
             "translationPathExpression" : "translated/${originalFile.baseName}_${locale}.${originalFile.extension}",
             "authorizeContent" : true
          } 
